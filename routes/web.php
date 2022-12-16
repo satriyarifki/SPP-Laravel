@@ -19,6 +19,6 @@ Route::get('/config', function () {
         'db:seed',
         [
             '--force' => true,
-        ],
+        ]
     );
 });
