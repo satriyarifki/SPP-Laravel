@@ -1,5 +1,4 @@
 FROM php:8.1.5-fpm-alpine 
-#satriya
 
 RUN apk add --no-cache nginx wget
 
